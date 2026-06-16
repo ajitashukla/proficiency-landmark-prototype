@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Proficiency Landmark — Wireframe</title>
+<title>Proficiency Landmark Wireframe</title>
 <style>
   :root {
     --accent: #58cc02;
@@ -278,7 +278,7 @@
       <span class="streak" style="background:#eee;color:var(--muted);cursor:pointer;" onclick="go('home')">Close</span>
     </div>
     <h1>Listen and answer</h1>
-    <p class="sub">Played at normal native speed — the kind of clip that used to be a blur.</p>
+    <p class="sub">Played at normal native speed,the kind of clip that used to be a blur.</p>
 
     <div class="player">
       <button class="play-btn" id="play" onclick="playClip()">▶</button>
@@ -320,7 +320,7 @@
 
     <div class="card">
       <h2>What changed</h2>
-      <p class="sub">You're now catching past-tense verbs (<em>fui</em>, <em>compré</em>) without slowing down — the preterite that tripped you up in January.</p>
+      <p class="sub">You're now catching past-tense verbs (<em>fui</em>, <em>compré</em>) without slowing down, the preterite that tripped you up in January.</p>
     </div>
 
     <div class="duo-cheer fade-in">
@@ -374,13 +374,13 @@
         </svg>
       </div>
       <h1>Past-tense storytelling</h1>
-      <p class="sub" style="margin-top:8px;">You used the preterite correctly without thinking about it. Six months ago this was a wall — now it's a tool.</p>
+      <p class="sub" style="margin-top:8px;">You used the preterite correctly without thinking about it. Six months ago this was a wall, now it's a tool.</p>
       <span class="pill">Landmark 1 of your B1 journey</span>
     </div>
 
     <div class="card" style="margin-top:24px;">
       <h2>Keep the momentum</h2>
-      <p class="sub">Your next landmark — <strong>Understanding fast native speech</strong> — unlocks in about 3 weeks of practice. Keep your streak alive.</p>
+      <p class="sub">Your next landmark, <strong>Understanding fast native speech</strong>, unlocks in about 3 weeks of practice. Keep your streak alive.</p>
     </div>
 
     <button class="btn-primary" onclick="finish()">Back to learning</button>
@@ -425,8 +425,8 @@
     el.classList.add(correct ? 'correct' : 'wrong');
     const fb = document.getElementById('snap-feedback');
     fb.textContent = correct
-      ? '✓ Right — and you caught it on the first listen.'
-      : 'Not quite — the bread (el pan). Replay and listen for "olvidó".';
+      ? '✓ Right, and you caught it on the first listen.'
+      : 'Not quite, the bread (el pan). Replay and listen for "olvidó".';
     if (!correct) {
       document.querySelectorAll('#choices .choice').forEach(c => c.disabled = false);
     }
